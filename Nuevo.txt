@@ -1,0 +1,65 @@
+Comandos 
+
+1.- Entrar en la carpeta thecmdchallenge.
+cd thecmdchallenge
+
+2.- Imprimir la ruta del directorio actual.
+pwd
+
+3.- Listar todos los archivos del directorio actual, incluidos archivos ocultos.
+ls -a
+
+4.- Listar archivos recursivamente
+ls -R
+
+5.- Limpiar terminal
+clear
+
+6. Ir a la carpeta small name y mostrar en consola el contenido del archivo trophy.txt
+cd small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+cat trophy.txt
+
+7.- Moverse a funcode y listar todos los archivos js
+cd ..
+cd ..
+cd ..
+cd funcode
+ls *js
+
+
+8.- Crear un nuevo directorio dentro de funcode/the-most-funny que se llame "not-that-funny"
+cd the-most-funny
+mkdir not-that-funny
+
+9.- Crear una copia de the-mostboring-text.txt(esta en /boringfolder/) y nombrarlo como lol.txt
+cd ..
+cd ..
+cd boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/
+cp the-mostboring-text.txt lol.txt
+
+10 - Mover funcode/kids.jpg adentro de funcode/images/hello
+cd ..
+cd ..
+cd ..
+cd ..
+mv funcode/kids.jpg funcode/images/hello
+
+11.- Remover el directorio small-name
+rm -r small-name
+
+12.- Imprimir en la linea de comando el contenido de the-ultimate-joke.txt
+ls -R
+cd funcode/the-most-funny/lol
+cat the-ultimate-joke.txt
+
+13.- Remover todos los archivos de boringfolder
+rm -r boringfolder/*
+
+14.- Abrir el archivo kamehameha/dragon-ball-jokes.md usando el editor VI
+vim thecmdchallenge/kamehameha/dragon-ball-jokes.md
+
+15.- Actualizar el archivo kamehameha/dragon-ball-jokes.md removiendo la primera linea que se lee en el archivo, guardar y cerrar el editor de texto.
+editar archivo con VIM borrando la primera linea
+salir con !wq
+
+
